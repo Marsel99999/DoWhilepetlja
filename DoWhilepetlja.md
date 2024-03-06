@@ -100,3 +100,15 @@ printf("Broj: %d\n", broj);
 broj++;
 }
 
+## 9.Razlika između do-while petlje i while petlje
+Razlika između do-while petlje i while petlje leži u načinu provjere uvjeta za ponavljanje bloka koda.
+
+Do-while petlja:
+-Prvo izvršava blok koda, a zatim provjerava uvjet.
+-Osigurava da se blok koda izvrši barem jednom, čak i ako uvjet nije ispunjen na početku.
+-Koristi se kada želimo garantirati barem jedno izvršavanje bloka koda prije provjere uvjeta za ponavljanje petlje.
+
+While petlja:
+-Provjerava uvjet na početku petlje prije izvršavanja bloka koda.        
+-Može se preskočiti izvršavanje bloka koda ako uvjet nije ispunjen na početku.
+-Koristi se kada želimo provjeriti uvjet prije izvršavanja bloka koda.
