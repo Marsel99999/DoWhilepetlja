@@ -52,6 +52,7 @@ do {
 - Do-while petlja zahtijeva inicijaliziju varijable prije same petlje, što dovodi do dodatnog koda izvan petlje i povećava kompleksnost programa.
 - Unatoč tome što petlja prvo izvršava blok koda, postoji mogućnost da se blok izvrši barem jednom, čak i ako uvjet nije ispunjen.
 - Manje je prikladna za korištenje u složenijim slučajevima, za razliku od petlje while.
+- Postoji mogućnost beskonačne petlje, ako se uvjet izlaska iz petlje pogrešno postavi, te će se petlja neprekidno izvršavati 
 
 ---
 
