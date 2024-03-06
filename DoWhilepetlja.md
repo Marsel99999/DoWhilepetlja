@@ -81,4 +81,22 @@ return 0;
 ## 7. Upotreba u praksi
 Do while petlja se često koristi za rad s korisničkim unosima, validaciju podataka, obradu liste elemenata ili bilo koje situacije gdje je potrebno barem jednom izvršiti određeni blok koda prije provjere uvjeta.
 
+---
+
+## 8. Provjera uvjeta u petlji do-while
+
+U petlji `do-while`, uvjet se provjerava na kraju svakog prolaza kroz petlju. To znači da se blok koda unutar petlje uvijek izvršava barem jednom, bez obzira na to je li uvjet ispunjen ili ne. Nakon izvršavanja bloka koda, uvjet se provjerava. Ako je uvjet istinit, petlja se ponavlja; inače, petlja se zaustavlja.
+
+## Provjera uvjeta na početku petlje
+
+U petlji s provjerom uvjeta na početku, uvjet se provjerava prije izvršavanja bloka koda. Ako uvjet nije ispunjen na početku, blok koda se uopće ne izvršava. Ova vrsta petlje je klasična `while` petlja.
+
+Primjer:
+
+```c
+int broj = 0;
+while (broj < 5) {
+printf("Broj: %d\n", broj);
+broj++;
+}
 
