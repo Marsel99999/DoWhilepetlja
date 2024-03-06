@@ -27,6 +27,11 @@ blok_naredbi;
     while (uvijet);
 - U sklopu petlje može se nalaziti jedna ili blok naredbi.
 - Petlja do while može se ugnježđivati jedna u drugu ili kombinirati dvije (ili više) različite petlje.
+- Tok petlje do while je slijedeći:
+  1. početak while petlje
+  2. Istinit izraz ili uvijet se procjenjuje
+  3. Ako je izraz istinit, program izvršava tijelo do-while petlje
+  4. Ako je izraz neistinit, izvršava se program izvan while petlje.
 
 ---
 
