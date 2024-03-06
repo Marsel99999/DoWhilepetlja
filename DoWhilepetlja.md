@@ -21,7 +21,7 @@ do {
 
 ## 3. Osnovne karakteristike petlje `do-while`
 
-- Naziva se još petlja kontrolirana izlazom.
+- Naziva se još petlja kontrolirana izlazom (engl. exit-condition loop).
 - Petlja `do-while` prvo izvršava blok koda, a zatim provjerava uvjet.
 - Ako je uvjet istinit, petlja se ponavlja, inače se petlja zaustavlja.
 - Ova petlja osigurava da se blok koda izvrši barem jednom, čak i ako uvjet nije istinit na početku.
