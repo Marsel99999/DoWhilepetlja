@@ -13,9 +13,9 @@ do {
     blok_naredbi;
 } while(uvjet);
 
-do – početak izvršavanja naredbe (ulazak u blok)
-naredba – dio koda koji će obavljati operacije nad nekom prije zadanom vrijednosti
-while(uvjet) – izvršavanje naredbe dok je uvjet istinit (izlazak iz bloka)
+- do – početak izvršavanja naredbe (ulazak u blok)
+- naredba – dio koda koji će obavljati operacije nad nekom prije zadanom vrijednosti
+- while(uvjet) – izvršavanje naredbe dok je uvjet istinit (izlazak iz bloka)
 
 ---
 
