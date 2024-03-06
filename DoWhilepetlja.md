@@ -42,8 +42,8 @@ blok_naredbi;
   se određeni unos ili operacija izvrše barem jednom.
 - U programskom jeziku poput C, do-while petlju možete koristiti na primjeru korisničkog unosa, gdje želite da korisnik unese vrijednost 
   barem jednom prije provjere uvjeta petlje.
-- Jednostavna sintaksa za osiguranje izvršavanja koda: Sintaksa petlje "do while" je prilično jednostavna i jasna. Ova jednostavnost čini kod čitljivijim i lakšim za održavanje.
-- Izvršava se dok je uvjet istinit, a zatim se provjerava: Za razliku od petlje "while" koja prvo provjerava uvjet pa tek onda izvršava blok koda, petlja "do while" izvršava blok koda prvo, a zatim provjerava uvjet. Ova karakteristika može biti korisna u situacijama kada je potrebno izvršiti određene operacije prije nego što se provjeri uvjet za nastavak petlje.
+- Sintaksa petlje "do while" je prilično jednostavna i jasna. Ova jednostavnost čini kod čitljivijim i lakšim za održavanje.
+- Za razliku od petlje "while" koja prvo provjerava uvjet pa tek onda izvršava blok koda, petlja "do while" izvršava blok koda prvo, a zatim provjerava uvjet. Ova karakteristika može biti korisna u situacijama kada je potrebno izvršiti određene operacije prije nego što se provjeri uvjet za nastavak petlje.
  
 ---
 
