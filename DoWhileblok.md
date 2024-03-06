@@ -27,3 +27,22 @@ Petlja `do-while` je kontrolna struktura u programiranju koja omogućuje izvrša
   barem jednom prije provjere uvjeta petlje.
 
 ---
+## 4. Primjer korištenja petlje do while na konkretnom zadatku
+Omogućiti korisniku unos cijelog broja. Osigurati da bude u intervalu [10, 50].
+
+ #include <stdio.h>
+int main(void)
+{
+  int b; 
+  do {
+    scanf("%d", &b); 
+  } while (b < 10 || b > 50);
+  scanf("%d", &b);
+  while (b < 10 || b > 50)
+    scanf("%d", &b);
+  scanf("%d", &b);
+  for ( ; b < 10 || b > 50; )
+   scanf("%d", &b);
+return 0;
+}
+
