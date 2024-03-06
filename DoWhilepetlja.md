@@ -24,7 +24,7 @@ do {
 - Petlja `do-while` prvo izvršava blok koda, a zatim provjerava uvjet.
 - Ako je uvjet istinit, petlja se ponavlja, inače se petlja zaustavlja.
 - Ova petlja osigurava da se blok koda izvrši barem jednom, čak i ako uvjet nije istinit na početku.
-- Do while, naredba i izraz uvijet unutar zagrada iza koje slijedi točka zarez čini jednu cjelinu.
+- Do while, naredba i izraz uvjet unutar zagrada iza koje slijedi točka zarez čini jednu cjelinu.
 - U sklopu petlje može se nalaziti jedna ili blok naredbi.
 - Petlja do while može se ugnježđivati jedna u drugu ili kombinirati dvije (ili više) različite petlje.
 - Tok petlje do while je slijedeći:
