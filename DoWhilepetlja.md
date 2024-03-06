@@ -44,6 +44,7 @@ do {
   barem jednom prije provjere uvjeta petlje.
 - Sintaksa petlje "do while" je prilično jednostavna i jasna. Ova jednostavnost čini kod čitljivijim i lakšim za održavanje.
 - Za razliku od petlje "while" koja prvo provjerava uvjet pa tek onda izvršava blok koda, petlja "do while" izvršava blok koda prvo, a zatim provjerava uvjet. Ova karakteristika može biti korisna u situacijama kada je potrebno izvršiti određene operacije prije nego što se provjeri uvjet za nastavak petlje.
+- Koristi se za validaciju unosa podataka: Petlja do-while je korisna kada trebate provjeriti ispravnost unosa korisnika. Na primjer, ako korisnik unosi broj koji mora biti u određenom rasponu, petlja do-while omogućuje ponovno traženje unosa sve dok korisnik ne unese ispravan podatak.
  
 ---
 
