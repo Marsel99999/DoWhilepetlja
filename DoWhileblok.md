@@ -14,8 +14,12 @@ Petlja `do-while` je kontrolna struktura u programiranju koja omogućuje izvrša
 - Ako je uvjet istinit, petlja se ponavlja, inače se petlja zaustavlja.
 - Ova petlja osigurava da se blok koda izvrši barem jednom, čak i ako uvjet nije istinit na početku.
 - Do while, naredba i izraz uvijet unutar zagrada iza koje slijedi točka zarez čini jednu cjelinu.
+- Opći oblik ove petlje je:
+    do
+     naredba
+    while (uvijet);
 - U sklopu petlje može se nalaziti jedna ili blok naredbi.
-
+- Petlja do while može se ugnježđivati jedna u drugu ili kombinirati dvije (ili više) različite petlje.
 ---
 
 ## 3. Nekoliko prednosti petlje `do-while`
