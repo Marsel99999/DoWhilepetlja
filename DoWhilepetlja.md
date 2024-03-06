@@ -71,3 +71,10 @@ int main(void)
 } while (b <= a); 
 return 0;
 }
+
+}
+
+## 7. Upotreba u praksi
+Do while petlja se često koristi za rad s korisničkim unosima, validaciju podataka, obradu liste elemenata ili bilo koje situacije gdje je potrebno barem jednom izvršiti određeni blok koda prije provjere uvjeta.
+
+
