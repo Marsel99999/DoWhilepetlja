@@ -7,8 +7,14 @@ Dobrodošli na prezentaciju o petlji `do-while`!
 Petlja `do-while` je kontrolna struktura u programiranju koja omogućuje izvršavanje određenog bloka koda sve dok je zadani uvjet istinit.
 
 ---
+## 2. Opći oblik petlje `do-while`
+do {
+blok_naredbi;
+} while (uvjet);
 
-## 2. Osnovne karakteristike petlje `do-while`
+---
+
+## 3. Osnovne karakteristike petlje `do-while`
 
 - Petlja `do-while` prvo izvršava blok koda, a zatim provjerava uvjet.
 - Ako je uvjet istinit, petlja se ponavlja, inače se petlja zaustavlja.
@@ -22,7 +28,7 @@ Petlja `do-while` je kontrolna struktura u programiranju koja omogućuje izvrša
 - Petlja do while može se ugnježđivati jedna u drugu ili kombinirati dvije (ili više) različite petlje.
 ---
 
-## 3. Nekoliko prednosti petlje `do-while`
+## 4. Nekoliko prednosti petlje `do-while`
 
 - Do-while petlja garantira izvršavanje petlje barem jednom, bez obzira na uvjet. To je korisno kada želite da određeni blok koda bude      izvršen prije nego što se provjeri uvjet.
 - Do-while petlja je praktična kada želite obraditi korisnički unos prije nego što se provjeri uvjet petlje. Na taj način osiguravate da 
@@ -32,7 +38,7 @@ Petlja `do-while` je kontrolna struktura u programiranju koja omogućuje izvrša
 
 ---
 
-## 4. Primjer korištenja petlje do while na konkretnom zadatku
+## 5. Primjer korištenja petlje do while na konkretnom zadatku
 Omogućiti korisniku unos dva realna broja. Osigurati da prvi bude manji od drugog.
 
 #include <stdio.h>
