@@ -50,3 +50,19 @@ int main(void)
 return 0;
 }
 
+## 4. Primjer korištenja petlje do while na konkretnom zadatku
+Omogućiti korisniku unos dva realna broja. Osigurati da prvi bude manji od drugog.
+
+#include <stdio.h>
+int main(void)
+{
+  float a, b; 
+  
+  printf("Unesite prvi broj: ");
+  scanf ("%f", &a);
+  do {
+     printf("Unesite drugi broj koji mora biti veci od prvog (%f): ", a);
+     scanf("%f", &b);
+} while (b <= a); 
+return 0;
+}
